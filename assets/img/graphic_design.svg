@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 266 307" style="enable-background:new 0 0 266 307;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#CCCCCC;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#D3054F;stroke-width:5;stroke-miterlimit:10;}
+</style>
+<g id="pluma">
+	<path class="st0" d="M54.4,297.2c7.4-66.3-43.8-78.3-43.8-78.3c81.6-84.9,90.7-143.3,90.7-167v-8.7v-2.3"/>
+	<path class="st0" d="M148.2,297.3C140.8,231.1,192,219,192,219c-81.6-84.9-90.7-143.3-90.7-167v-8.7V41"/>
+	<line class="st0" x1="14.5" y1="297.2" x2="188" y2="297.2"/>
+	<line class="st0" x1="101.3" y1="187.3" x2="101.3" y2="43.3"/>
+	<circle class="st0" cx="101.3" cy="202.7" r="15.9"/>
+</g>
+<g id="trazo">
+	<line class="st1" x1="243.5" y1="154.7" x2="243.5" y2="40.9"/>
+	<circle class="st1" cx="243.5" cy="26.9" r="15.9"/>
+	<path class="st1" d="M113.5,41.3H89.1c-1.2,0-2.1-1-2.1-2.1V14.7c0-1.2,1-2.1,2.1-2.1h24.4c1.2,0,2.1,1,2.1,2.1v24.4
+		C115.7,40.3,114.7,41.3,113.5,41.3z"/>
+	<path class="st1" d="M253.7,181.8h-24.4c-1.2,0-2.1-1-2.1-2.1v-24.4c0-1.2,1-2.1,2.1-2.1h24.4c1.2,0,2.1,1,2.1,2.1v24.4
+		C255.9,180.8,254.9,181.8,253.7,181.8z"/>
+	<path class="st1" d="M117.2,27.9c68.7,0,124.3,55.7,124.3,124.3"/>
+</g>
+</svg>

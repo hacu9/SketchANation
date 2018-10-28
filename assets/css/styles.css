@@ -1,0 +1,321 @@
+
+:root {
+  --brand-color: #f6014f;
+  --brand-color-darker:#cc0b48;
+}
+body,.main,nav{
+  background:#000b1d !important;
+}
+body{
+  overflow-x: hidden;
+}
+footer{
+  /* background: #b90a59; */
+  color: white;
+  z-index: 1;
+  position: relative;
+  overflow: visible;
+  background-image: url(../img/footer1.png);
+  /* background-size: 100% 100%; */
+  background-size:cover;
+background-repeat:no-repeat;
+  background-position:center center;
+  padding-top: 200px !important;
+}
+
+a{
+  color:var(--brand-color)
+}
+a:hover{
+  color:var(--brand-color-darker)
+
+}
+footer a{
+  color:rgb(245,245,245);
+}
+.border-primary{
+border-color:var(--brand-color) !important;
+}
+.btn{
+  padding: 5px 60px;
+    border-radius: 18px;
+}
+.btn-outline-primary{
+  color: var(--brand-color);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--brand-color);
+}
+.btn-outline-primary:hover{
+  color: white;
+    background-color: var(--brand-color-darker);
+    background-image: none;
+    border-color: var(--brand-color-darker);
+}
+
+/* footer:after{
+
+color: rgba(245,245,245,0.7);
+background-image: url(../img/footer.png);
+content: '';
+display: block;
+position: absolute;
+top: 0;
+z-index: -1;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background-size: cover;
+background-position: center center;
+} */
+.main-heading,.main-sub-heading{
+  color:#f6014f;
+}
+p{
+  color:rgba(245,245,245,0.7);
+}
+svg * {
+  fill: none;
+  stroke: white;
+}
+/* svg {
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+} */
+svg {
+    height: 370px;
+}
+
+
+
+h1{
+font-family: 'Black Han Sans', sans-serif;
+}
+h2{
+ font-family: 'Jua', sans-serif;
+}
+p,a{
+font-family: 'Indie Flower', cursive;
+}
+
+/* .layer-0 {
+  top: 0;
+  z-index: 5;
+  /* background:  url('assets/img/1.jpg') no-repeat top 40px center;
+  background-size: 120px 138.5px;
+} */
+
+
+
+/* PARALLAX */
+.layer-0,.layer-bg {
+  top: -100px;
+  z-index: 5;
+  background-image: url('../img/parallax/1.jpg')  ;
+
+}
+.layer-1 {
+  top: -100px;
+  z-index: 5;
+  background-image: url('../img/parallax/elementos_del_cielo.png') ;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position: right top;
+}
+
+.layer-brand {
+  background-image: url('../img/logo.png') ;
+  background-size:contain !important;
+  background-repeat:no-repeat;
+  background-position: top !important;
+}
+.layer-2 {
+  top: -50px;
+  background-image: url('../img/parallax/2.png');
+
+}
+.layer-3 {
+  top: -10px;
+  background-image: url('../img/parallax/3.png');
+
+
+}
+.layer-4 {
+  top: 65px;
+  background-image: url('../img/parallax/4.png');
+
+}
+.layer-5 {
+  top: 100px;
+  background-image: url('../img/parallax/5.png');
+
+}
+.layer-6 {
+  top: 130px;
+  background-image: url('../img/parallax/6.png');
+
+}
+.layer-7 {
+  top: 130px ;
+  background-image: url('../img/parallax/7.png');
+
+}
+.layer-8 {
+  top: 130px;
+  background-image: url('../img/parallax/8.png');
+
+}
+.layer-9 {
+  top: 130px;
+  background-image: url('../img/parallax/9.png');
+
+}
+.layer-10 {
+  top: 150px;
+  background-image: url('../img/parallax/10.png');
+
+}
+.main{
+  position: relative;
+}
+.nav{
+}
+.st0{ stroke: #D3054F}
+.st1{}
+.st2{ stroke: #D3054F;}
+.st3{ stroke: #CCCCCC}
+#hero {
+height: 95vh;
+overflow: hidden;
+position: relative;
+}
+.layer {
+background-position: bottom center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 95vh;
+position: fixed;
+z-index: -1;
+top:0;
+}
+
+/* PARALLAX */
+
+/* INK TRANSITION */
+
+.cd-modal{
+  z-index:99999
+}
+.cd-transition-layer.visible{
+  z-index:9999
+}
+.modal-content{
+  background: transparent;
+}
+/* INK TRANSITION*/
+
+/* TEXT DROPS */
+.drop-start,.drop-end{
+  position: relative;
+  color:white !important;
+  z-index:1
+}
+.has-drop p{
+  position: relative;
+  z-index: 20;
+}
+.drop-start:after{
+  content: '';
+display: block;
+background: url(../img/drop-start.png);
+background-size: cover;
+position: absolute;
+width: 200px;
+height: 322px;
+/* opacity: 0.6; */
+z-index:-1;
+top: -100px;
+left: -77px;
+}
+.drop-end:after{
+  content: '';
+display: block;
+background: url(../img/drop-end.png);
+background-size: cover;
+position: absolute;
+width: 200px;
+height: 322px;
+/* opacity: 0.6; */
+z-index:-1;
+right: -77px;
+top: -54px;
+}
+
+.decorative-drop{
+  background-image: url(../img/drop.png);
+background-repeat: no-repeat;
+background-size: 146px;
+}
+/* TEXT DROPS */
+
+nav.shrink{
+    transition: all 1.5s ease;
+
+}
+img.brand{
+  transition: all 1.5s ease;
+
+}
+.shrink img.brand{
+width: 120px;
+
+}
+
+
+@media (max-width:930px) {
+  svg{
+    height: auto;
+    width:100%;
+  }
+  .drop-end:after,.drop-start:after {
+      width: 210px;
+      height: 300px;
+      opacity: 0.4;
+  }
+  .drop-end:after{
+right:23px;
+  }
+  .drop-start:after{
+top: 0;
+left: 120px;
+  }
+  .decorative-drop{
+    background-image: unset;
+  }
+  .row{
+    margin:0;
+  }
+  h2.main-sub-heading, h1.main-heading {
+    text-align: center;
+}
+p:not(.col){
+   text-align: justify;
+}
+#hero{
+  background-image:url(../img/sketch.jpg);
+  width:100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.layer-brand{
+  z-index:1;
+  height:60vh;
+  top:20px;
+  background-image:url(../img/logo_small.png)
+}
+.layer:not(.layer-brand){
+  display: none;
+}
+}

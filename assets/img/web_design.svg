@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 543 447" style="enable-background:new 0 0 543 447;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#D3054F;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#CCCCCC;stroke-width:5;stroke-miterlimit:10;}
+</style>
+<g id="contenido_x5F_pantalla">
+	<rect x="77.7" y="104.7" class="st0" width="83.3" height="131.8"/>
+	<rect x="77.7" y="68.9" class="st0" width="395" height="22.8"/>
+	<rect x="177.7" y="104.7" class="st0" width="295" height="131.8"/>
+</g>
+<g id="lineas_x5F_pantalla_x5F_afuera">
+	<path class="st1" d="M494.5,375.3H52.2h-4.7c-8.7,0-15.7-7-15.7-15.7v-2.3V54.7V41.8c0-8.7,7-15.7,15.7-15.7H48h18.3H492h7.5
+		c8.7,0,15.7,7,15.7,15.7v8.8V358v1.7c0,8.7-7,15.7-15.7,15.7H494.5z"/>
+</g>
+<g id="lineas_x5F_pantalla_x5F_adentro">
+	<line class="st1" x1="31.1" y1="328.5" x2="515" y2="328.5"/>
+	<polygon class="st1" points="497,44.5 57.7,44.5 55,44.5 55,51.3 55,56.9 55,306.4 55,309.5 58.1,309.5 497,309.5 	"/>
+</g>
+<g id="pata_x5F_de_x5F_pantalla">
+	<polyline class="st1" points="247.7,375.3 247.7,415.3 304.8,415.3 304.8,375.3 	"/>
+	<path class="st1" d="M347.6,415.3h1.5c6.9,0,12.5,5.6,12.5,12.5v4.9h-12.5h-91.5h-67.1v-4.9c0-6.9,5.6-12.5,12.5-12.5h2.3h142.6"/>
+</g>
+</svg>
